@@ -6,17 +6,45 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Daniel Navarro - Portafolio</title>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Daniel Navarro</h5>
+                        <div class="brand-subtitle">Front-end Designer | Developer</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <header class="header">
         <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul>
             <div class="header-content">
                 <h4 class="header-subtitle">Hello, I am</h4>
                 <h1 class="header-title">Daniel Navarro</h1>
@@ -24,33 +52,22 @@
             </div>
         </div>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>Sobre Mí</h2>
-        <p>
-            👨‍💻 Actualmente estoy trabajando en tecnologías de desarrollo web como JavaScript, React, etc.
-            <br>
-            📚 Actualmente estoy aprendiendo todo sobre tecnologías Frontend y Backend 😺
-            <br>
-            💪🏼 Metas futuras: aprender más tecnologías y nunca dejar de crear nuevas ideas
-        </p>
-    </section>
-
-    <section id="more-about-me">
-        <h2>Más de Mí</h2>
-        <div class="github">
-            <img src="ruta-del-logo.png" alt="Logo de GitHub">
-            <a href="https://github.com/ZaidNc" target="_blank">GitHub</a>
+    
+    <div class="container">
+        <div id="about" class="row about-section">
+            <section id="about">
+                <h2>Sobre Mí</h2>
+                <p>
+                    👨‍💻 Actualmente estoy trabajando en tecnologías de desarrollo web como JavaScript, React, etc.
+                    <br>
+                    📚 Actualmente estoy aprendiendo todo sobre tecnologías Frontend y Backend 😺
+                    <br>
+                    💪🏼 Metas futuras: aprender más tecnologías y nunca dejar de crear nuevas ideas
+                </p>
+            </section>
         </div>
-    </section>
+    </div>
+    
 
     <section id="projects">
         <h2>Proyectos</h2>
