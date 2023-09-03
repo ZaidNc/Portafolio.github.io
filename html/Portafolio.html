@@ -7,24 +7,24 @@
     <title>Daniel Navarro - Portafolio</title>
 </head>
 <body>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
+                    </li>
+                        <li class="nav-item brand-txt">
+                        <h5 class="brand-title">Daniel Navarro</h5>
+                        <div class="brand-subtitle">Front-end Designer | Developer</div>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
@@ -32,17 +32,10 @@
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">Daniel Navarro</h5>
-                        <div class="brand-subtitle">Front-end Designer | Developer</div>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
-    
+
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -52,21 +45,27 @@
             </div>
         </div>
     </header>
-    
+
+    <section id="about">
     <div class="container">
-        <div id="about" class="row about-section">
-            <section id="about">
-                <h2>Sobre Mí</h2>
-                <p>
+        <div class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Web Designer / Developer Located In Our Lovely Earth</h5>
+                <p class="mt-20">
                     👨‍💻 Actualmente estoy trabajando en tecnologías de desarrollo web como JavaScript, React, etc.
                     <br>
                     📚 Actualmente estoy aprendiendo todo sobre tecnologías Frontend y Backend 😺
                     <br>
                     💪🏼 Metas futuras: aprender más tecnologías y nunca dejar de crear nuevas ideas
                 </p>
-            </section>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2"></i>Download My CV</button>
+            </div>
+            <!-- Aquí podrías agregar más columnas con información adicional si lo deseas -->
         </div>
     </div>
+</section>
     
 
     <section id="projects">
